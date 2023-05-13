@@ -288,7 +288,7 @@
     <img class="site-author-image" itemprop="image" alt="北城以北"
       src="/images/avatar.png">
   <p class="site-author-name" itemprop="name">北城以北</p>
-  <div class="site-description" itemprop="description"></div>
+  <div class="site-description" itemprop="description">我是人间惆怅客，知君何事泪纵横。</div>
 </div>
 <div class="site-state-wrap motion-element">
   <nav class="site-state">
@@ -329,6 +329,7 @@
   </div>
 
       </div>
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=478507889&auto=1&height=66"></iframe>
 
     </div>
   </aside>
@@ -370,27 +371,6 @@
 
 
 
-<script>
-    //   自定义邮箱审核规则
-    document.body.addEventListener('click', function(e) {
-        if (e.target.classList.contains('vsubmit')) {
-            const email = document.querySelector('input[type=email]');
-            const nick = document.querySelector('input[name=nick]');
-            const reg = /^[A-Za-z0-9\u4e00-\u9fa5]+@[a-zA-Z0-9_-]+(\.[a-zA-Z0-9_-]+)+$/;
-            if (!email.value || !nick.value || !reg.test(email.value)) {
-                const str = `<div class="valert text-center"><div class="vtext">请填写正确的昵称和邮箱！</div></div>`;
-                const vmark = document.querySelector('.vmark');
-                vmark.innerHTML = str;
-                vmark.style.display = 'block';
-                setTimeout(function() {
-                    vmark.style.display = 'none';
-                    vmark.innerHTML = '';
-                }, 2500);
-            }
-        }
-    })
-</script>
-
 
 <!-- <br /> -->
 <!-- 网站运行时间的设置 -->
@@ -399,7 +379,7 @@
 <script>
     var now = new Date();
     function createtime() {
-        var grt= new Date("11/17/2022 8:00:00");//此处修改你的建站时间或者网站上线时间
+        var grt= new Date("8/11/2022 22:40:00");//此处修改你的建站时间或者网站上线时间
         now.setTime(now.getTime()+250);
         days = (now - grt ) / 1000 / 60 / 60 / 24; dnum = Math.floor(days);
         hours = (now - grt ) / 1000 / 60 / 60 - (24 * dnum); hnum = Math.floor(hours);
@@ -409,7 +389,7 @@
         snum = Math.round(seconds); 
         if(String(snum).length ==1 ){snum = "0" + snum;}
         // var times = document.getElementById("times").innerHTML = hnum + " 小时 " + mnum + " 分 " + snum + " 秒";
-        document.getElementById("timeDate").innerHTML = "本站已安全运行 "+dnum+" 天 "+hnum + " 小时 " + mnum + " 分 " + snum + " 秒";
+        document.getElementById("timeDate").innerHTML = "♡(*´∀｀*)人(*´∀｀*)♡❤我与傻童❤已经在一起 "+dnum+" 天 "+hnum + " 小时 " + mnum + " 分 " + snum + " 秒";
     }
 setInterval("createtime()",250);
 </script>
@@ -508,8 +488,8 @@ NexT.utils.loadComments(document.querySelector('#valine-comments'), () => {
       el         : '#valine-comments',
       verify     : false,
       notify     : true,
-      appId      : 'KNCKLdCBMZ3mzFrA1fRlmS0r-gzGzoHsz',
-      appKey     : 'F2VDWCPgqgaG9wrBgZW33xbe',
+      appId      : 'kQMWQwYKFscvCEcGXLWR8Je9-MdYXbMMI',
+      appKey     : 'zs6T7bSkwekTkRdTZD5dmIAZ',
       placeholder: "欢迎光临 Hi~ o(*￣▽￣*)ブ",
       avatar     : 'mm',
       meta       : guest,
@@ -523,6 +503,10 @@ NexT.utils.loadComments(document.querySelector('#valine-comments'), () => {
   }, window.Valine);
 });
 </script>
+<!-- 页面点击小红心 -->
+<script type="text/javascript" src="/js/clicklove.js"></script>
 
 </body>
 </html>
+
+
