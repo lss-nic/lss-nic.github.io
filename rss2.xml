@@ -9,14 +9,14 @@
     <atom:link href="http://example.com/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>我是人间惆怅客，知君何事泪纵横。</description>
-    <pubDate>Fri, 12 May 2023 14:37:53 GMT</pubDate>
+    <pubDate>Mon, 15 May 2023 05:36:41 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
-      <title>你好 世界</title>
-      <link>http://example.com/2023/05/11/hello-world/</link>
-      <guid>http://example.com/2023/05/11/hello-world/</guid>
-      <pubDate>Thu, 11 May 2023 09:28:05 GMT</pubDate>
+      <title>Hello world</title>
+      <link>http://example.com/2023/05/14/hello-world/</link>
+      <guid>http://example.com/2023/05/14/hello-world/</guid>
+      <pubDate>Sun, 14 May 2023 13:10:51 GMT</pubDate>
       
         
         
@@ -30,7 +30,7 @@
       
       
       
-      <comments>http://example.com/2023/05/11/hello-world/#disqus_thread</comments>
+      <comments>http://example.com/2023/05/14/hello-world/#disqus_thread</comments>
       
     </item>
     
