@@ -1,4 +1,4 @@
-name: Azure Static Web Apps CI/CD
+name: Hexo Deploy
 
 on:
   push:
@@ -6,21 +6,29 @@ on:
       - master
 
 jobs:
-  build_and_deploy_job:
-    if: github.event_name == 'push'
+  deploy:
     runs-on: ubuntu-latest
-    name: Build and Deploy Job
+
     steps:
-      - uses: actions/checkout@v2
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+
+      - name: Set Up Node.js
+        uses: actions/setup-node@v2
         with:
-          submodules: true
-      - name: Build And Deploy
-        id: builddeploy
+          node-version: 14
+
+      - name: Install Dependencies
+        run: npm ci
+
+      - name: Generate Static Pages
+        run: npx hexo generate
+
+      - name: Deploy to Azure Static Web Apps
         uses: Azure/static-web-apps-deploy@v1
         with:
           azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN }}
-          repo_token: ${{ secrets.GITHUB_TOKEN }} # Used for GitHub integrations (i.e. PR comments)
-          action: 'upload'
-          app_location: '/'
-          output_location: 'public'
-          app_build_command: 'npm run deploy'
+          repo_token: ${{ secrets.GITHUB_TOKEN }}
+          action: "upload"
+          app_location: "/"
+          output_location: "public"

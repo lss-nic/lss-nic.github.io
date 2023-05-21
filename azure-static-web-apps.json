@@ -1,0 +1,13 @@
+{
+  "app_location": "public",
+  "output_location": "public",
+  "api_location": "api",
+  "app_build_command": "npm run build",
+  "routes": [
+    {
+      "route": "/*",
+      "serve": "/index.html",
+      "statusCode": 200
+    }
+  ]
+}
