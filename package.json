@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "@waline/hexo-next": "^3.0.1",
-    "eslint": "^8.40.0",
+    "eslint": "^8.42.0",
     "hexo": "^6.3.0",
     "hexo-calendar": "^1.0.8",
     "hexo-deployer-git": "^4.0.0",
