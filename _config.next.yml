@@ -89,7 +89,7 @@ footer:
 creative_commons:
   license: by-nc-sa
   sidebar: false
-  post: ture
+  post: true
   language:
 
 
@@ -124,6 +124,7 @@ menu:
   archives: /archives/ || fa fa-archive
   schedule: /schedule/ || fa fa-calendar
   guestbook: /guestbook/ || fa fa-paper-plane
+  mirror: /mirror/  || fa fa-code-branch
   #search: /search/ || fa fa-search
   #sitemap: /sitemap.xml || fa fa-sitemap
   #commonweal: /404/ || fa fa-heartbeat
@@ -168,9 +169,9 @@ avatar:
   # Replace the default image and set the url here.
   url: /images/avatar.png
   # If true, the avatar will be dispalyed in circle.
-  rounded: ture
+  rounded: true
   # If true, the avatar will be rotated with the cursor.
-  rotated: ture
+  rotated: true
 
 # Posts / Categories / Tags in sidebar.
 site_state: true
@@ -180,7 +181,7 @@ site_state: true
 # Key is the link label showing to end users.
 # Value before `||` delimiter is the target permalink, value after `||` delimiter is the name of Font Awesome icon.
 social:
-  GitHub: https://github.com/lss-nic || fab fa-github
+  GitHub: https://github.com/lss-nic || fa-brands fa-github
   #E-Mail: mailto:yourname@gmail.com || fa fa-envelope
   #Weibo: https://weibo.com/yourname || fab fa-weibo
   #Google: https://plus.google.com/yourname || fab fa-google
@@ -188,15 +189,15 @@ social:
   #FB Page: https://www.facebook.com/yourname || fab fa-facebook
   #StackOverflow: https://stackoverflow.com/yourname || fab fa-stack-overflow
   #YouTube: https://youtube.com/yourname || fab fa-youtube
-  Bilibili: https://space.bilibili.com/162103299 || fa custom bilibili
-  抖音: https://v.douyin.com/URhhCrJ/ || fa custom douyin
+  Bilibili: https://space.bilibili.com/162103299 || fa-brands fa-bilibili
+  Tiktok: https://v.douyin.com/URhhCrJ/ || fa-brands fa-tiktok
   #Instagram: https://instagram.com/yourname || fab fa-instagram
   #Skype: skype:yourname?call|chat || fab fa-skype
-  豆瓣: https://www.douban.com/people/232049155/?_i=3878054R4yV4Dg || fa custom douban
+  Douban: https://www.douban.com/people/232049155/?_i=3878054R4yV4Dg || fa custom douban
 social_icons:
   enable: true
   icons_only: false
-  transition: false
+  transition: true
 
 # Blog rolls
 links_settings:
@@ -206,7 +207,7 @@ links_settings:
   layout: block
 
 links:
-   Leiting: http://blog.leiting2020.top/
+   小电脑的小窝: http://blog.leiting2020.top/
 
 
 # Table of Contents in the Sidebar
@@ -265,7 +266,7 @@ symbols_count_time:
 
 
 # Use icon instead of the symbol # to indicate the tag at the bottom of the post
-tag_icon: ture
+tag_icon: true
 
 # Reward (Donate)
 # Front-matter variable (unsupport animation).
@@ -352,7 +353,7 @@ text_align:
   mobile: justify
 
 # Reduce padding / margin indents on devices with narrow width.
-mobile_layout_economy: false
+mobile_layout_economy: true
 
 # Android Chrome header panel color ($brand-bg / $headband-bg => $black-deep).
 android_chrome_color: "#222"
@@ -364,12 +365,12 @@ codeblock:
   # Code Highlight theme
   # Available values: normal | night | night eighties | night blue | night bright | solarized | solarized dark | galactic
   # See: https://github.com/chriskempson/tomorrow-theme
-  highlight_theme: normal
+  highlight_theme: night bright
   # Add copy button on codeblock
   copy_button:
     enable: true
     # Show text copy result.
-    show_result: ture
+    show_result: true
     # Available values: default | flat | mac
     style: mac
 
@@ -390,12 +391,12 @@ reading_progress:
 
 # Bookmark Support
 bookmark:
-  enable: false
+  enable: true
   # Customize the color of the bookmark.
-  color: "#222"
+  color: "#0099cc"
   # If auto, save the reading progress when closing the page or clicking the bookmark-icon.
   # If manual, only save it by clicking the bookmark-icon.
-  save: auto
+  save: manual
 
 # `Follow me on GitHub` banner in the top-right corner.
 github_banner:
@@ -522,11 +523,11 @@ math:
 
 # Easily enable fast Ajax navigation on your website.
 # Dependencies: https://github.com/theme-next/theme-next-pjax
-pjax: ture
+pjax: true
 
 # FancyBox is a tool that offers a nice and elegant way to add zooming functionality for images.
 # For more information: https://fancyapps.com/fancybox
-fancybox: false
+fancybox: true
 
 # A JavaScript library for zooming images like Medium.
 # Do not enable both `fancybox` and `mediumzoom`.
@@ -539,7 +540,7 @@ lazyload: false
 
 # Pangu Support
 # For more information: https://github.com/vinta/pangu.js
-pangu: false
+pangu: true
 
 # Quicklink Support
 # Do not enable both `pjax` and `quicklink`.
@@ -550,8 +551,8 @@ quicklink:
 
   # Home page and archive page can be controlled through home and archive options below.
   # This configuration item is independent of `enable`.
-  home: false
-  archive: false
+  home_enabled: false
+  archive_enabled: false
 
   # Default (true) will initialize quicklink after the load event fires.
   delay: true
@@ -641,7 +642,7 @@ valine:
 waline:
   enable: true #是否开启
   dark: 'body.darkmode--activated'
-  serverURL: waline1-4d101s6yz-lss-nic.vercel.app # Waline #服务端地址，我们这里就是上面部署的 Vercel 地址
+  serverURL: https://www.shatongtong.ml # Waline #服务端地址，我们这里就是上面部署的 Vercel 地址
   placeholder: 欢迎光临 Hi~ o(*￣▽￣*)ブ~ # #评论框的默认文字
   avatar: mm # 头像风格
   meta: [nick, mail, link] # 自定义评论框上面的三个输入框的内容
@@ -661,6 +662,12 @@ waline:
       //unpkg.com/@waline/emojis@1.1.0/alus,
       https://unpkg.com/@waline/emojis@1.1.0/weibo,
     ]
+
+twikoo:
+  enable: false
+  visitor: false
+  envId: https://twikoo.shatongtong.ga # 腾讯云环境填 envId；Vercel 环境填地址（https://xxx.vercel.app）
+  region:  # 环境地域，默认为 ap-shanghai，腾讯云环境填 ap-shanghai 或 ap-guangzhou；Vercel 环境不填
 
 
 # LiveRe comments system
@@ -748,7 +755,7 @@ firestore:
 # Show Views / Visitors of the website / page with busuanzi.
 # Get more information on http://ibruce.info/2015/04/04/busuanzi
 busuanzi_count:
-  enable: ture
+  enable: true
   total_visitors: true
   total_visitors_icon: fa fa-user
   total_views: true
@@ -842,7 +849,7 @@ tabs:
 # So, you have to install the dependency of pdf.js if you want to use pdf tag and make it available to all browsers.
 # See: https://github.com/theme-next/theme-next-pdf
 pdf:
-  enable: false
+  enable: true
   # Default height
   height: 500px
 
@@ -958,12 +965,12 @@ vendors:
   # Lazyload
   # lazyload: //cdn.jsdelivr.net/npm/lozad@1/dist/lozad.min.js
   # lazyload: //cdnjs.cloudflare.com/ajax/libs/lozad.js/1.14.0/lozad.min.js
-  lazyload:
+  lazyload: 
 
   # Pangu
   # pangu: //cdn.jsdelivr.net/npm/pangu@4/dist/browser/pangu.min.js
   # pangu: //cdnjs.cloudflare.com/ajax/libs/pangu/4.0.7/pangu.min.js
-  pangu:
+  pangu: 
 
   # Quicklink
   # quicklink: //cdn.jsdelivr.net/npm/quicklink@1/dist/quicklink.umd.js
@@ -1083,4 +1090,6 @@ darkmode_js:
 # 文章末尾添加“本文结束”标记
 passage_end_tag:
   enabled: true
+
+
 

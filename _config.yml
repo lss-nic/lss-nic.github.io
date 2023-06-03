@@ -102,11 +102,9 @@ theme: next
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: git
-  repository: 
-  
-      github: git@github.com:lss-nic/lss-nic.github.io.git
-  branch: master
+-     type: git
+      repository: git@github.com:lss-nic/lss-nic.github.io.git
+      branch: master
 
 feed:
   type: rss2
@@ -131,7 +129,7 @@ limit: 10000
 lazyload:
   enable: true
   onlypost: false
-  loadingImg: /images/loading.png
+  loadingImg: https://www.qingqingzijin.eu.org/imgs/loading4.gif
 
 # 自动生成sitemap
 # sitemap
@@ -171,3 +169,8 @@ filter_optimize:
   # set the priority of this plugin,
   # lower means it will be executed first, default of Hexo is 10
   priority: 12
+
+recent_posts_title: 近期文章
+recent_posts_layout: block
+recent_posts: true  
+
