@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>侧耳听</title>
+    <link>https://tongtong.eu.org/</link>
+    
+    <atom:link href="https://tongtong.eu.org/rss2.xml" rel="self" type="application/rss+xml"/>
+    
+    <description>我是人间惆怅客，知君何事泪纵横。</description>
+    <pubDate>Tue, 06 Jun 2023 12:54:45 GMT</pubDate>
+    <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>中元</title>
+      <link>https://tongtong.eu.org/posts/1053677286.html</link>
+      <guid>https://tongtong.eu.org/posts/1053677286.html</guid>
+      <pubDate>Tue, 06 Jun 2023 12:54:45 GMT</pubDate>
+      
+      <description>&lt;p&gt;2016年，没记错的话，那年六月高中毕业，十月即将入学。而我却在八月望着漫天飞舞的纸钱，有感而发写下了这三首小诗，以赞颂那些遥不可及、死生契阔的爱情。&lt;/p&gt;</description>
+      
+      
+      
+      <content:encoded><![CDATA[<p>2016年，没记错的话，那年六月高中毕业，十月即将入学。而我却在八月望着漫天飞舞的纸钱，有感而发写下了这三首小诗，以赞颂那些遥不可及、死生契阔的爱情。</p><span id="more"></span><center>其一</center><center>闲花野草逢春生，碧云青天随秋转。</center><center>纸钱得以晚风送，新魂旧鬼复何来？</center><center>其二</center><center>新魂旧鬼归何处？夜半挑芯愁永驻。</center><center>微风拂得烛火动，惊起疑是故人来。</center><center>其三</center><center>起将身来把烛燃，袅袅青烟以情传。</center><center>寒风怎解离人意，烛花红处已无她。</center><center><img src="https://img.qingqingzijin.eu.org/%E5%9B%BE%E7%89%871-yasuo.png" style="zoom:50%;" /></center>]]></content:encoded>
+      
+      
+      <category domain="https://tongtong.eu.org/categories/%E7%94%9F%E6%B4%BB/">生活</category>
+      
+      
+      <category domain="https://tongtong.eu.org/tags/%E8%AF%97%E8%AF%8D/">诗词</category>
+      
+      <category domain="https://tongtong.eu.org/tags/%E8%8A%82%E6%97%A5/">节日</category>
+      
+      <category domain="https://tongtong.eu.org/tags/%E7%88%B1%E6%83%85/">爱情</category>
+      
+      
+      <comments>https://tongtong.eu.org/posts/1053677286.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>山水间</title>
+      <link>https://tongtong.eu.org/posts/47186.html</link>
+      <guid>https://tongtong.eu.org/posts/47186.html</guid>
+      <pubDate>Sun, 04 Jun 2023 15:36:51 GMT</pubDate>
+      
+      <description>&lt;p&gt;戊戌年八月十三日，与吾姐饭后闲步至河畔。时天色渐暮，观日落于湘江，水波荡漾，微风拂面。闻烟起至苍穹，与云作伴，难分难舍。星月同辉，鸟儿翱翔，渔舟唱晚，烟火人间。此情此景，岂不乐哉？不由作诗一首，以表心中之喜。&lt;/p&gt;</description>
+      
+      
+      
+      <content:encoded><![CDATA[<p>戊戌年八月十三日，与吾姐饭后闲步至河畔。时天色渐暮，观日落于湘江，水波荡漾，微风拂面。闻烟起至苍穹，与云作伴，难分难舍。星月同辉，鸟儿翱翔，渔舟唱晚，烟火人间。此情此景，岂不乐哉？不由作诗一首，以表心中之喜。</p><span id="more"></span><center>日落水寒烟袅袅，月出星沉舟渺渺。</center><center>彼岸墨染灯初上，飞鸟得兴归家忘。</center><center>云残风卷不知处，江面朦胧霞映入。</center><center>此间山水为何物，好似佳人娥眉蹙。</center><center><img src="https://img.qingqingzijin.eu.org/jiang.jpg" style="zoom:25%;" /></center>]]></content:encoded>
+      
+      
+      <category domain="https://tongtong.eu.org/categories/%E7%94%9F%E6%B4%BB/">生活</category>
+      
+      
+      <category domain="https://tongtong.eu.org/tags/%E8%AF%97%E8%AF%8D/">诗词</category>
+      
+      <category domain="https://tongtong.eu.org/tags/%E9%A3%8E%E6%99%AF/">风景</category>
+      
+      
+      <comments>https://tongtong.eu.org/posts/47186.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>Hello world!</title>
+      <link>https://tongtong.eu.org/posts/14265.html</link>
+      <guid>https://tongtong.eu.org/posts/14265.html</guid>
+      <pubDate>Sat, 13 May 2023 16:00:00 GMT</pubDate>
+      
+      <description>&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&quot;https://hexo.io/docs/troubleshooting.html&quot;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&quot;https://github.com/hexojs/hexo/issues&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;</description>
+      
+      
+      
+      <content:encoded><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><span id="more"></span><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content:encoded>
+      
+      
+      <category domain="https://tongtong.eu.org/categories/%E6%95%99%E7%A8%8B/">教程</category>
+      
+      
+      <category domain="https://tongtong.eu.org/tags/Hexo/">Hexo</category>
+      
+      
+      <comments>https://tongtong.eu.org/posts/14265.html#disqus_thread</comments>
+      
+    </item>
+    
+  </channel>
+</rss>
